@@ -28,11 +28,16 @@
 
   section#login > div#formulario {
     float: none;
-    height: 70%;
+    height: 100%;
+    
+  }
+
+  form > input[type=submit]{
+    width:70%;
   }
 }
 /*telas grandes*/
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 995px) {
   body {
     background-image: linear-gradient(to top, #49a09d, #5f2c82);
   }
@@ -59,4 +64,5 @@
   div#formulario > p {
     font-size: 1.2em;
   }
+
 }
